@@ -55,13 +55,13 @@ afterEvaluate {
             }
         }
 
-        repositories {
-            maven {
-                name = "BuildFolder"
-                setUrl("${project.buildDir}/repository")
-//                url = "${project.buildDir}/repository"
-            }
-        }
+//        repositories {
+//            maven {
+//                name = "BuildFolder"
+//                setUrl("${project.buildDir}/repository")
+////                url = "${project.buildDir}/repository"
+//            }
+//        }
     }
 }
 
